@@ -1,10 +1,10 @@
 QUESTION 1 — Git Mistakes & Recovery Challenge
-(Fixing Real-World Git Problems)
+
 Simulate several common Git mistakes and fix them using correct Git commands.
 Task Requirements
 1. Create a new Git repository.
 2. Create a file named notes.txt and make an initial commit.
-3. Make a wrong commit (any incorrect change).
+3. Make a wrong commit
 4. Fix that commit using:
 5. git commit --amend
 6. Create two more commits with any changes you like.
