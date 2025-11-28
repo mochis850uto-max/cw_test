@@ -1,0 +1,23 @@
+QUESTION 1 — Git Mistakes & Recovery Challenge
+(Fixing Real-World Git Problems)
+Simulate several common Git mistakes and fix them using correct Git commands.
+Task Requirements
+1. Create a new Git repository.
+2. Create a file named notes.txt and make an initial commit.
+3. Make a wrong commit (any incorrect change).
+4. Fix that commit using:
+5. git commit --amend
+6. Create two more commits with any changes you like.
+7. Now assume the second commit contains incorrect work.
+Undo it using:
+8. git revert <commit-hash>
+9. Create another mistake:
+o Delete a file
+o Stage the deletion
+o Commit it
+10.Realize it was incorrect. Restore the file using one of the following:
+11.git reset --soft HEAD~1
+or
+git restore <filename>
+12.Push the repository to GitHub.
+13.Add your teammates as collaborators.
